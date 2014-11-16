@@ -1,0 +1,9 @@
+Algorithme hashage :
+h = 0
+POUR CHAQUE octet du fichier FAIRE
+	h = (h rotation 5) XOR octet
+FINPOUR
+
+Générer les clefs, par exemple :
+generer labasse
+-> ca génère labasse.kpr et labasse.kpu
